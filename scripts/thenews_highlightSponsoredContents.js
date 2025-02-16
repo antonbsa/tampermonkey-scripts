@@ -1,3 +1,5 @@
+'use strict';
+
 const highlightMatchingElements = () => {
   const contentBlocks = document.getElementById('content-blocks');
   const directChildren = Array.from(contentBlocks.children);
